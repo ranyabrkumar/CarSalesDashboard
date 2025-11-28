@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-data_path = 'CarSalesDashboard/data/Car_sales.csv'
+data_path = 'data/Car_sales.csv'
 
 @st.cache_data
 def load_data(path):
